@@ -16,5 +16,10 @@ namespace APP_PARA_REPOSITORIO_1B
         {
             InitializeComponent();
         }
+
+        private void bMensaje_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("ESTOY AQUI");
+        }
     }
 }
